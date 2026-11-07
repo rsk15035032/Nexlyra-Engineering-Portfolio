@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/ravis/Desktop/Nexlyra/Project3/29-08-26-Ravi/MLflow-experiment/mlruns/1/models/m-79113dbb488f4d699e51b50bb51555de/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.11.15
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.15.2
+model_id: m-79113dbb488f4d699e51b50bb51555de
+model_size_bytes: 1191191
+model_uuid: m-79113dbb488f4d699e51b50bb51555de
+prompts: null
+run_id: c22fa0d17ca24578b378768e60a66172
+utc_time_created: '2026-08-28 22:56:22.837624'

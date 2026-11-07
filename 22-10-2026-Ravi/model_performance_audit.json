@@ -1,0 +1,7 @@
+{
+    "best_pr_auc": 0.06966027033320407,
+    "standard_threshold_fp": 930,
+    "standard_threshold_fn": 0,
+    "optimal_cost_threshold": 0.5730000000000001,
+    "expected_calibration_error": 0.5246153684854508
+}

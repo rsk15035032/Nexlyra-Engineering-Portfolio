@@ -1,0 +1,39 @@
+{
+    "project": "Strain Matrix",
+    "model": "StrainVisionNet",
+    "input_shapes": {
+        "spatial": [
+            "B",
+            1,
+            8,
+            8
+        ],
+        "tabular": [
+            "B",
+            5
+        ]
+    },
+    "output": "single_logit",
+    "sigmoid_in_model": false,
+    "operating_threshold": 0.2301025390625,
+    "threshold_selection": "Validation threshold maximizing recall subject to validation precision >= 99%",
+    "target_precision": 0.99,
+    "batch_size": 256,
+    "learning_rate": 0.0002,
+    "weight_decay": 0.0001,
+    "epochs": 40,
+    "optimizer": "AdamW",
+    "scheduler": "CosineAnnealingLR",
+    "amp": true,
+    "mixup_alpha": 0.2,
+    "mixup_probability": 0.5,
+    "gradient_clip_norm": 1.0,
+    "loss": {
+        "name": "AsymmetricFocalLoss",
+        "alpha_neg": 2.0,
+        "alpha_pos": 1.0,
+        "gamma_neg": 2.0,
+        "gamma_pos": 1.0
+    },
+    "random_state": 42
+}

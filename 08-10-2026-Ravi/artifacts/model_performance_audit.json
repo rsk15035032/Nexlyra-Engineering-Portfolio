@@ -1,0 +1,20 @@
+{
+    "model_checkpoint_loaded": "/content/drive/MyDrive/Nexlyra/07-10-2026-Ravi/best_hydro_model.pth",
+    "dataset_loaded": "/content/drive/MyDrive/Nexlyra/06-10-2026-Ravi/multi_modal_dataset.pt",
+    "metrics": {
+        "auroc": 0.5,
+        "pr_auc": 0.06755714285714286,
+        "ece": 0.932442843914032,
+        "optimal_threshold": 0.01,
+        "minimized_liability_usd": 32635500000.0
+    },
+    "ablations": {
+        "multimodal_pr_auc": 0.06755714285714286,
+        "audio_only_pr_auc": 0.06755714285714286,
+        "tabular_only_pr_auc": 0.06471088103019698
+    },
+    "confusion_matrix_optimal": {
+        "threshold": 0.01,
+        "fp": 65271
+    }
+}

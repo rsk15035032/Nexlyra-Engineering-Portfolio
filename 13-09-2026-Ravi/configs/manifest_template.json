@@ -1,0 +1,16 @@
+{
+  "project": "Nexlyra strain-matrix spoof / micro-fracture detection",
+  "input_image_shape": [
+    1,
+    8,
+    8
+  ],
+  "tabular_features": [
+    "Axial_Load_Tons",
+    "Wind_Shear_MPH"
+  ],
+  "vendor": "Titan_Alloy_Syndicate",
+  "seed": 42,
+  "decision_threshold": 0.5,
+  "artifacts": []
+}

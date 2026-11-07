@@ -1,0 +1,51 @@
+# Large ML training tensors
+*.pt
+*.pth
+*.ckpt
+
+# Model checkpoints
+*.onnx
+*.safetensors
+
+# Large datasets
+*.parquet
+*.h5
+*.hdf5
+
+# Python cache
+__pycache__/
+*.pyc
+*.ipynb_checkpoints
+*.virtual_documents
+29-08-26-Ravi/MLflow-experiment/models
+29-08-26-Ravi/MLflow-experiment/mlruns/1
+29-08-26-Ravi/MLflow-experiment/src
+29-08-26-Ravi/MLflow-experiment/mlflow.db
+26-10-2026-Ravi/artifacts
+26-10-2026-Ravi/models
+14-09-2026-Ravi/production/models/best_model.pth
+14-09-2026-Ravi/production/models/quantized_model.pth
+14-09-2026-Ravi/production/models/strain_vision_net.onnx
+14-09-2026-Ravi/production/artifacts/spatial_feature_standard_scaler.pkl
+14-09-2026-Ravi/production/artifacts/tabular_standard_scaler.pkl
+13-09-2026-Ravi/models/best_model.pth
+13-09-2026-Ravi/tensor
+12-10-2026-Ravi/artifacts
+12-10-2026-Ravi/models
+11-09-26-Ravi/models/best_model.pth
+11-09-26-Ravi/backup/best_model.pth
+11-09-26-Ravi/tensors
+10-08-26-Ravi/model
+09-09-26-Ravi/models
+09-09-26-Ravi/processed_tensors
+08-10-2026-Ravi/cold_storage
+08-10-2026-Ravi/12-10-2026-Ravi/artifacts
+08-10-2026-Ravi/12-10-2026-Ravi/models
+
+
+
+
+
+
+
+

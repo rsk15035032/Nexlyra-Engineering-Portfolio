@@ -1,0 +1,10 @@
+Baseline Model Results
+========================================
+
+Accuracy : 99.9840
+Precision of Logistic Regression: 0.9998
+Recall of Logistic Regression   : 0.9882
+Precision of Random Forest Classifier: 1.0000
+Recall of Random Forest Classifier   : 0.9881
+F1 Score of Logistic Regression : 0.9932
+F1 Score of Ramdom Forest : 0.9983

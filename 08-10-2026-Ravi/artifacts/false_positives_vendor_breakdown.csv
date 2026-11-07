@@ -1,0 +1,11 @@
+Vendor,Turbine_Model,False_Positive_Count,Avg_Confidence,Mean_Sigma,Mean_Velocity
+Hydro_Phantom_Turbines,Turbine-X1,3983,1.0,-0.037116267,-0.022215568
+Hydro_Phantom_Turbines,Turbine-X2,3795,1.0,-0.024008177,-0.01605173
+Hydro_Phantom_Turbines,Turbine-X3,3858,1.0,-0.028067749,-0.020633765
+Hydro_Phantom_Turbines,Turbine-X4,3927,1.0,-0.012566232,-0.023239935
+Hydro_Phantom_Turbines,Turbine-X5,3928,1.0,-0.0439834,-0.021253264
+Legit_Hydro,Turbine-X1,9092,1.0,-0.033276353,-0.018476902
+Legit_Hydro,Turbine-X2,9224,1.0,-0.029055199,-0.019027425
+Legit_Hydro,Turbine-X3,9192,1.0,-0.02428275,-0.008934838
+Legit_Hydro,Turbine-X4,9160,1.0,-0.026072593,-0.016551888
+Legit_Hydro,Turbine-X5,9112,1.0,-0.016872816,-0.01354916

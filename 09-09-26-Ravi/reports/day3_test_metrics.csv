@@ -1,0 +1,2 @@
+Architecture,Best_Validation_AUROC,Best_Epoch,Test_Loss,Test_AUROC,Test_Precision,Test_Recall,Test_F1,True_Negatives,False_Positives,False_Negatives,True_Positives
+CNN,1.0,1,0.00105583058608075,1.0,1.0,1.0,1.0,139804,0,0,10196

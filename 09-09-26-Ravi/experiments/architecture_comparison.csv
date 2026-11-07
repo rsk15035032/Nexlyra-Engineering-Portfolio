@@ -1,0 +1,3 @@
+Architecture,Parameters,Best_Validation_AUROC,Best_Epoch,Training_Time_Minutes
+CNN,156769,1.0,1,3.6514222820599875
+ViT,83425,1.0,1,5.412949792544047

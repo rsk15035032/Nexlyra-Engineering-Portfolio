@@ -1,0 +1,8 @@
+{
+    "num_samples": 200,
+    "mean_latency_ms": 0.1035,
+    "p50_latency_ms": 0.0967,
+    "p95_latency_ms": 0.1328,
+    "p99_latency_ms": 0.2038,
+    "throughput_qps": 9657.96
+}

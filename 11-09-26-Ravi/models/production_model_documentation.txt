@@ -1,0 +1,75 @@
+
+NEXLYRA STRAINVISIONNET — PRODUCTION CONFIGURATION
+===================================================
+
+Model:StrainVisionNet
+
+Spatial Input:[B, 1, 8, 8]
+
+Tabular Input:[B, 5]
+
+Output:Single raw logit.
+
+Sigmoid:
+    NOT applied inside forward().
+    Sigmoid is applied only during inference
+    for probability generation.
+
+Training:
+    Epoch budget: 40
+    Batch size: 256
+
+Optimizer: AdamW
+
+Learning Rate:0.0002
+
+Weight Decay:0.0001
+
+Scheduler:CosineAnnealingLR
+
+Mixed Precision:True
+
+MixUp:
+    Alpha = 0.2
+    Probability = 0.5
+
+Gradient Clipping:
+    Maximum norm = 1.0
+
+Loss:
+    AsymmetricFocalLoss
+
+    alpha_neg = 2.0
+    alpha_pos = 1.0
+    gamma_neg = 2.0
+    gamma_pos = 1.0
+
+Operational Threshold:
+    0.23010254
+
+Threshold Selection:
+    The threshold was selected on the validation
+    dataset to achieve at least 99% validation
+    precision while maximizing validation recall.
+
+IMPORTANT:
+    The 99% precision constraint is a validation-set
+    operating criterion, NOT a mathematical guarantee
+    of 99% precision on unseen production data.
+
+Test Metrics:
+    AUROC = 1.000000
+    Precision = 0.992118
+    Recall = 1.000000
+    F1 = 0.996044
+
+Calibration:
+    ECE = 0.061916
+    Learned temperature = 0.512633
+
+Risk:
+    False Negative penalty = 1000.0
+    False Positive penalty = 1.0
+
+Random State:
+    42

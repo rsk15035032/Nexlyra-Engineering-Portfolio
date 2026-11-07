@@ -1,0 +1,38 @@
+{
+  "seed": 42,
+  "true_positive_index": 8,
+  "true_positive_probability": 0.986415684223175,
+  "titan_spoof_index": 220,
+  "titan_spoof_probability": 0.9876084327697754,
+  "gradcam_target_layer": "spatial_branch.3",
+  "first_conv2d": "spatial_branch.0",
+  "shap_features": [
+    {
+      "feature": "Wind_Shear_MPH",
+      "mean_abs_shap": 0.005106942792904249,
+      "mean_shap": 0.0012072611499732982
+    },
+    {
+      "feature": "Axial_Load_Tons",
+      "mean_abs_shap": 0.004334733349007241,
+      "mean_shap": 0.0017755555891276636
+    },
+    {
+      "feature": "Vessel_Age_Years",
+      "mean_abs_shap": 0.0013942531779098002,
+      "mean_shap": 0.0003107879957805076
+    },
+    {
+      "feature": "Ambient_Temp_C",
+      "mean_abs_shap": 0.00047395340018750433,
+      "mean_shap": 4.88387818215417e-05
+    },
+    {
+      "feature": "Vibration_RMS",
+      "mean_abs_shap": 0.00020857809861966697,
+      "mean_shap": 1.1803878083205592e-06
+    }
+  ],
+  "audit_json": "reports\\audit\\audit_sample_220.json",
+  "onnx_model": "reports\\model.onnx"
+}

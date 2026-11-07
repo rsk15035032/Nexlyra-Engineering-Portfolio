@@ -1,0 +1,10 @@
+{
+    "original_size_mb": 1.813,
+    "quantized_size_mb": 0.2135,
+    "compression_ratio": 8.49,
+    "original_auroc": 0.512,
+    "quantized_auroc": 0.5122,
+    "auroc_drop": -0.0002,
+    "pct_degradation": -0.0391,
+    "acceptance_pass": true
+}

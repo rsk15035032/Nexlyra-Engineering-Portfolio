@@ -1,0 +1,5 @@
+{
+    "rule": "Sigma > 2.0 AND Max_Amplitude > 5.0 AND Broadband_Ratio < 0.2",
+    "total_violations": 970,
+    "hydro_phantom_attribution_pct": 29.896907216494846
+}
